@@ -1,9 +1,6 @@
 //! Display text from the clipboard to a UI node
-use bevy::color::palettes::css::NAVY;
-use bevy::prelude::*;
-use bevy_mod_clipboard::Clipboard;
-use bevy_mod_clipboard::ClipboardPlugin;
-use bevy_mod_clipboard::ClipboardRead;
+use bevy::{color::palettes::css::NAVY, prelude::*};
+use bevy_mod_clipboard::*;
 
 fn main() {
     App::new()
