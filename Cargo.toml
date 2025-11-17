@@ -20,8 +20,3 @@ wasm-bindgen-futures = "0.4"
 
 [dev-dependencies]
 bevy = { version = "0.17", default-features = true }
-
-
-[[example]]
-name = "show_clipboard_contents"
-path = "examples/show_clipboard_contents.rs"
